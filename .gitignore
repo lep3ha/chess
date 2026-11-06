@@ -1,60 +1,30 @@
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Build folders
+# Build products
 /build/
-/cmake-build*/
+/build-*/
+/cmake-build-*/
 /out/
 /bin/
-
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# Compiled object files
+/CMakeCache.txt
+/CMakeFiles/
+CMakeUserPresets.json
+compile_commands.json
 *.o
 *.obj
+*.a
+*.lib
 *.so
 *.dylib
 *.dll
 *.exe
-*.out
-
-# Static / import libraries
-*.a
-*.lib
-
-# Debug files
 *.dSYM/
 *.pdb
 *.ilk
 
-# IDE / editor
+# Editors and local files
 .vscode/
 .idea/
-*.suo
-*.user
 *.swp
 *~
-
-# Logs
 *.log
-
-# Packaging
-*.tar.gz
-*.zip
-
-# OS generated files
-ehthumbs.db
-Icon?
-
-# Python cache (if any helper scripts)
-__pycache__/
-
-# Ignore local build artifacts for Xcode / macOS
-DerivedData/
+.DS_Store
+Thumbs.db
